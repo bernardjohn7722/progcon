@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-29 10:22:19 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMTRDMzY7MjAxOS0xMS0yOTswOTozODowNSBBTTsyMjEz"/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMzY7MjAxOS0xMS0yOTsxMDoyMjoxOSBBTTsxOzIzMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="grade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input any grade&quot;" newline="True"/>
+            <input variable="grade"/>
+            <if expression="grade&gt;=95">
+                <then>
+                    <output expression="&quot;You've got a 4&quot;" newline="True"/>
+                    <output expression="&quot;napaka galeng&quot;" newline="True"/>
+                    <declare name="answer" type="String" array="False" size=""/>
+                    <input variable="answer"/>
+                    <if expression="Answer ==&quot;nag aral ako&quot;">
+                        <then>
+                            <output expression="&quot; sana all Sea oil China Oil&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot; tamang kopya lng&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="grade&gt;=91">
+                        <then>
+                            <output expression="&quot;You've got a 3.5&quot;" newline="True"/>
+                            <output expression="&quot;Beri gud&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="grade&gt;=87">
+                                <then>
+                                    <output expression="&quot;You've got a 2.5&quot;" newline="True"/>
+                                    <output expression="&quot;saks lng&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="grade&gt;=83">
+                                        <then>
+                                            <output expression="&quot;You've got a 2&quot;" newline="True"/>
+                                            <output expression="&quot;ano na???&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="grade&gt;=79">
+                                                <then>
+                                                    <output expression="&quot;You've got a 1.5&quot;" newline="True"/>
+                                                    <output expression="&quot;R??&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="grade&gt;=75">
+                                                        <then>
+                                                            <output expression="&quot;You've got a 1&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="grade&gt;=70">
+                                                                <then>
+                                                                    <output expression="&quot; R &quot;" newline="True"/>
+                                                                    <declare name="answer" type="String" array="False" size=""/>
+                                                                    <input variable="answer"/>
+                                                                    <if expression="answer ==&quot;nag inoman kami kila aj&quot;">
+                                                                        <then>
+                                                                            <output expression="&quot;beri gud beri gud repeat ma tuloy hahahahahahaha&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <output expression="&quot; MAG DADAHILAN KAPA!!!&quot;" newline="True"/>
+                                                                        </else>
+                                                                    </if>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot; PLEASE TRANSFER TO A DIFFERENT SCHOOL!&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
