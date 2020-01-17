@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Windows 10 Pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-06 10:42:53 PM"/>
+        <attribute name="created" value="V2luZG93cyAxMCBQcm87QkVSTkFSRDsyMDIwLTAxLTA2OzA5OjIxOjE1IFBNOzI5OTY="/>
+        <attribute name="edited" value="V2luZG93cyAxMCBQcm87QkVSTkFSRDsyMDIwLTAxLTA2OzEwOjQyOjUzIFBNOzE7MzEwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="big" type="Integer" array="False" size=""/>
+            <declare name="small" type="Integer" array="False" size=""/>
+            <declare name="Current" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter number&quot;" newline="True"/>
+            <input variable="current"/>
+            <assign variable="big" expression="current"/>
+            <assign variable="small" expression="current"/>
+            <while expression="current != -99">
+                <output expression="&quot;please enter a number&quot;" newline="True"/>
+                <input variable="current"/>
+                <if expression="current &lt; small and current != -99">
+                    <then>
+                        <assign variable="small" expression="current"/>
+                    </then>
+                    <else>
+                        <if expression="current &gt; big">
+                            <then>
+                                <assign variable="big" expression="current"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;The largest number you entered was &quot;&amp;big &amp;&quot; and the smallest was &quot;&amp;small" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
